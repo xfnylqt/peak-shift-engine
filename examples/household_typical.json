@@ -1,0 +1,13 @@
+{
+  "name": "典型三口之家（含电动汽车）",
+  "region_hint": "浙江",
+  "description": "一个常见的有车家庭的柔性负荷组合。用于演示与回归测试。",
+  "loads": [
+    { "type": "ev_charger", "times_per_week": 5 },
+    { "type": "washing_machine", "times_per_week": 4 },
+    { "type": "water_heater", "times_per_week": 7 },
+    { "type": "dishwasher", "times_per_week": 7 },
+    { "type": "rice_cooker", "times_per_week": 7 },
+    { "type": "lighting" }
+  ]
+}
